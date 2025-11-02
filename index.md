@@ -219,6 +219,17 @@ Space AI Forum gathers researchers and practitioners working on AI for satellite
 
 Accepted work is amplified via partner channels and the organizers’ extensive networks to increase readership, citations, and collaboration opportunities.
 
+## The Case for Space AI Assurance {#assurance}
+
+**Strategic enabler for safety, the economy, and science**
+
+This workshop closes the approval gap for AI in space by defining how systems are tested, qualified, and trusted across safety, security, and reliability. It convenes agencies, operators, primes, SMEs, and researchers to agree on verifiable methods for V&V, runtime assurance, adversarial robustness, and data provenance for onboard ML, agent automation, and LLM-enabled operations. Space AI is a strategic enabler for safety, the economy, and science; assurance is the path to deploy it at scale.
+
+### Outputs for funders and operators
+- Draft assurance framework mapped to ECSS and CCSDS practice for safety cases and accreditation.
+- Open evaluation suite with datasets, fault injection, adversarial and calibration checks, and runtime monitors.
+- Reference testbeds for ops-sim, software-in-the-loop, and hardware-in-the-loop with flight-like compute, plus procurement templates that shorten approvals.
+
 ## Primer
 <iframe
   class="saf-pdf"
