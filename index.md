@@ -219,8 +219,7 @@ Space AI Forum gathers researchers and practitioners working on AI for satellite
 
 Accepted work is amplified via partner channels and the organizers’ extensive networks to increase readership, citations, and collaboration opportunities.
 
-{#why-space-ai}
-## Why Space AI?
+## Why Space AI? {#why-space-ai}
 Artificial intelligence is a strategic enabler for the space sector, crucial for enhancing the safety and reliability of complex missions, driving economic growth through innovative applications and services, and accelerating scientific discovery by processing vast amounts of data and enabling autonomous research. 
 
 This forum provides a vital platform for researchers and practitioners to exchange practical knowledge across algorithms, hardware, safety, and deployment, advancing these critical capabilities for the future of space.
