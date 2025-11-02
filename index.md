@@ -2,6 +2,7 @@
 title: Space AI Forum 2026
 layout: default
 ---
+{% assign ZENODO_URL = 'https://zenodo.org/communities/saf-proceedings/' %}
 
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
 
@@ -311,7 +312,7 @@ Thanks to attendees who choose to support the event
 Add your name at checkout and we will list it here if you wish
 
 ## Proceedings
-Accepted PDFs remain public on OpenReview. A Zenodo community archive may be created for easy citation
+Accepted PDFs stay on OpenReview. Archival copies with DOIs are deposited in the [Space AI Forum Zenodo Community]({{ ZENODO_URL }}).
 
 ## Call for reviewers
 We welcome reviewers with expertise in space systems, robotics, autonomy, ML, and safety  
