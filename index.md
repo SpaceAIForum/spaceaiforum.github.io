@@ -185,7 +185,7 @@ h2#overview + p::before{
 ## Overview
 Space AI Forum gathers researchers and practitioners working on AI for satellites, planetary robotics, ground and flight segments, mission operations, and science data systems. The focus is practical exchange across algorithms, hardware, safety, and deployment.
 
-Accepted work is amplified via SpaceLead Newsletter, partner channels, and the organizers’ networks to increase readership, citations, and collaboration opportunities.
+Accepted work is amplified via partner channels and the organizers’ extensive networks to increase readership, citations, and collaboration opportunities.
 
 ## Primer
 <iframe
