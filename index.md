@@ -312,7 +312,7 @@ Thanks to attendees who choose to support the event
 Add your name at checkout and we will list it here if you wish
 
 ## Proceedings
-Accepted PDFs stay on OpenReview. Archival copies with DOIs are deposited in the [Space AI Forum Zenodo Community]({{ ZENODO_URL }}).
+Accepted PDFs stay on OpenReview. Archival copies with DOIs are deposited in the <a href="{{ ZENODO_URL }}" target="_blank" rel="noopener">Space AI Forum Zenodo Community</a>.
 
 ## Call for reviewers
 We welcome reviewers with expertise in space systems, robotics, autonomy, ML, and safety  
