@@ -312,7 +312,9 @@ Thanks to attendees who choose to support the event
 Add your name at checkout and we will list it here if you wish
 
 ## Proceedings
-Accepted PDFs stay on OpenReview. Archival copies with DOIs are deposited in the <a href="{{ ZENODO_URL }}" target="_blank" rel="noopener">Space AI Forum Zenodo Community</a>.
+Accepted PDFs stay on OpenReview  
+Archival copies with DOIs are deposited in the <a href="{{ ZENODO_URL }}" target="_blank" rel="noopener">Space AI Forum Zenodo Community</a>  
+If you have an arXiv preprint, we’ll link it for you
 
 ## Call for reviewers
 We welcome reviewers with expertise in space systems, robotics, autonomy, ML, and safety  
@@ -328,6 +330,7 @@ Privacy notice: We collect only what is needed to run the event. Contact us for 
 Recording consent: Speakers and authors will be asked to opt in before recording  
 Conflicts: Reviewers must recuse themselves from papers with conflicts such as same institution, adviser or advisee, recent coauthor, or close collaborator  
 Review visibility: Double-blind during review. Reviews are posted on OpenReview. After decisions, accepted papers appear with author names  
+Archiving consent: By submitting the camera-ready, you permit the organizers to archive it on Zenodo under CC BY 4.0 and mint a DOI
 Export control and dual-use: Do not submit ITAR/EAR-restricted, classified, or proprietary-restricted content. Authors must have the right to share any data or code included  
 Code of conduct reports: Email research@sylvesterkaczmarek.com with subject “Conduct”
 
