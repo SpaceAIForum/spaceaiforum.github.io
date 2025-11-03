@@ -367,7 +367,8 @@ Live captions will be enabled. If you need assistance, email research@sylvesterk
 Be respectful and constructive. Harassment or discrimination is not tolerated  
 Privacy notice: We collect only what is needed to run the event. Contact us for removal requests  
 Recording consent: Speakers and authors will be asked to opt in before recording  
-Conflicts: Reviewers must recuse themselves from papers with conflicts such as same institution, adviser or advisee, recent coauthor, or close collaborator  
+Conflicts: Authors may serve as reviewers with strict COI. No reviewing of one’s own paper, same institution, adviser or advisee, coauthors in the last 3 years, close collaborators, or active funding ties in the last 2 years  
+Review model: Each paper receives at least two reviews and one meta review by the chair. The chair assigns reviews in OpenReview and enforces COI  
 Review visibility: Double-blind during review. Reviews are posted on OpenReview. After decisions, accepted papers appear with author names  
 Archiving consent: By submitting the camera-ready, you permit the organizers to archive it on Zenodo under CC BY 4.0 and mint a DOI  
 Export control and dual-use: Do not submit ITAR/EAR-restricted, classified, or proprietary-restricted content. Authors must have the right to share any data or code included  
