@@ -340,7 +340,7 @@ We will post a short post-event survey link here after the workshop to collect f
 
 ## Committee
 Program chair Prof. Sylvester Kaczmarek  
-PC 6–10 reviewers drawn from academia and industry
+Program committee invited from academia and industry
 
 ## Registration and acknowledgements
 Attendance is free for the first edition.  
