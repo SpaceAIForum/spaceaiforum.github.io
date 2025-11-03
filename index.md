@@ -342,13 +342,16 @@ We will post a short post-event survey link here after the workshop to collect f
 Program chair Prof. Sylvester Kaczmarek  
 PC 6–10 reviewers drawn from academia and industry
 
-## Registration and support
-No required fee for the first edition  
-Support the event via [Buy Me a Coffee](https://buymeacoffee.com/space.sylvester)
+## Registration and acknowledgements
+Attendance is free for the first edition.  
+Optional support: if you wish to contribute to event costs, you may make a voluntary contribution via [Buy Me a Coffee](https://buymeacoffee.com/space.sylvester).  
+Supporters who opt in will be acknowledged on this page.
 
+<!--
 ## Supporters
 Thanks to attendees who choose to support the event  
 Add your name at checkout and we will list it here if you wish
+-->
 
 ## Proceedings
 Accepted PDFs stay on OpenReview  
