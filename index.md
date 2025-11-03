@@ -302,9 +302,9 @@ We welcome short papers reporting research, negative results with lessons, syste
 
 ## Important dates
 - Location Online
-- Time zone GMT<!-- - All deadlines 23:59 AoE (UTC-12) -->
-- Submissions open 1 Nov 2025
-- Submission deadline 29 Jan 2026 23:59
+<!-- - All submission times AoE (UTC−12) - Time zone GMT / - All deadlines 23:59 AoE (UTC-12) --> <!-- AoE is UTC−12. GMT is UTC+0. So GMT = AoE + 12 hours. -->
+- Submissions open 1 Nov 2025 00:00 AoE (UTC−12)
+- Submission deadline 29 Jan 2026 23:59 AoE (UTC−12)
 - Notifications 17 Feb 2026
 - Camera-ready 3 Mar 2026
 - Event 14 Mar 2026
