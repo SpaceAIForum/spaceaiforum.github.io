@@ -379,6 +379,7 @@ Code of conduct reports: Email research@sylvesterkaczmarek.com with subject “C
 
 ## Contact
 Email research@sylvesterkaczmarek.com
+<br><a href="https://groups.google.com/g/space-ai-forum" target="_blank" rel="noopener">Join the announcements list</a>
 
 <footer class="saf-footer">
   <img class="saf-logo" src="{{ '/space_ai_forum_logo.jpg' | relative_url }}" alt="Space AI Forum logo">
