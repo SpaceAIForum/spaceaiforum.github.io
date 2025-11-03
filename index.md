@@ -217,7 +217,7 @@ h2#overview + p + p{ padding-left:96px; }
 ## Overview
 Space AI Forum gathers researchers and practitioners working on AI for satellites, planetary robotics, ground and flight segments, mission operations, and science data systems. The focus is practical exchange across algorithms, hardware, safety, and deployment.
 
-Accepted work will be listed across official channels and, with author consent, disseminated through disciplinary mailing lists, institutional newsletters, and the organisers’ professional networks to strengthen readership and collaboration.
+Accepted work will be listed across official channels and, with author consent, disseminated through disciplinary mailing lists, institutional newsletters, and the organizers’ professional networks to strengthen readership and collaboration.
 
 ## Why Space AI? {#why-space-ai}
 Artificial intelligence is a strategic enabler for the space sector, crucial for enhancing the safety and reliability of complex missions, driving economic growth through innovative applications and services, and accelerating scientific discovery by processing vast amounts of data and enabling autonomous research. 
@@ -342,7 +342,7 @@ We will post a short post-event survey link here after the workshop to collect f
 Program chair Prof. Sylvester Kaczmarek  
 Program committee invited from academia and industry
 
-## Registration and acknowledgements
+## Registration and acknowledgments
 Attendance is free for the first edition.  
 Optional support: if you wish to contribute to event costs, you may make a voluntary contribution via [Buy Me a Coffee](https://buymeacoffee.com/space.sylvester).  
 Supporters who opt in will be acknowledged on this page.
@@ -370,7 +370,7 @@ Live captions will be enabled. If you need assistance, email research@sylvesterk
 Be respectful and constructive. Harassment or discrimination is not tolerated  
 Privacy notice: We collect only what is needed to run the event. Contact us for removal requests  
 Recording consent: Speakers and authors will be asked to opt in before recording  
-Conflicts: Authors may serve as reviewers with strict COI. No reviewing of one’s own paper, same institution, adviser or advisee, coauthors in the last 3 years, close collaborators, or active funding ties in the last 2 years  
+Conflicts: Authors may serve as reviewers with strict COI. No reviewing of one’s own paper, same institution, advisor or advisee, coauthors in the last 3 years, close collaborators, or active funding ties in the last 2 years  
 Review model: Each paper receives at least two reviews and one meta review by the chair. The chair assigns reviews in OpenReview and enforces COI  
 Review visibility: Double-blind during review. Reviews are posted on OpenReview. After decisions, accepted papers appear with author names  
 Archiving consent: By submitting the camera-ready, you permit the organizers to archive it on Zenodo under CC BY 4.0 and mint a DOI  
