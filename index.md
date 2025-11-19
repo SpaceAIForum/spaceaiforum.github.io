@@ -320,7 +320,7 @@ We welcome short papers reporting research, negative results with lessons, syste
 - After acceptance, upload a camera-ready with author names. Authors are encouraged to post to arXiv and add the link on the OpenReview record
 
 ## Program
-Aim to accept about 6 papers  
+Highly selective single-track program (approx. 6 accepted papers)  
 Invited talks 1–2 speakers, 20–30 minutes plus Q&A  
 Format single track, live video with recordings published afterward  
 Detailed schedule will appear here after notifications
@@ -404,7 +404,7 @@ Email research@sylvesterkaczmarek.com
 </style>
 
 <hr class="saf-hr">
-<p class="saf-copy">Copyright © Space AI Forum {{ 'now' | date: '%Y' }}</p>
+<p class="saf-copy">Copyright © Space AI Forum {{ 'now' | date: '%Y' }} • SpaceAI.org.uk</p>
 
 <style>
 .saf-hr{border:0;border-top:1px solid #eaeaea;margin:24px 0 8px}
