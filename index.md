@@ -354,7 +354,7 @@ We welcome short papers reporting research, negative results with lessons, syste
 <style>
 .submission-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 16px;
   margin-top: 16px;
   margin-bottom: 32px;
@@ -404,6 +404,11 @@ We welcome short papers reporting research, negative results with lessons, syste
   <a href="https://www.overleaf.com/read/skcycybvfdjb#c4beb1" class="submission-card" target="_blank" rel="noopener">
     <h4>Overleaf Template</h4>
     <p>Clone the project directly into Overleaf.</p>
+  </a>
+  
+  <a href="{{ '/Space_AI_Forum_2026_CFP.pdf' | relative_url }}" class="submission-card" target="_blank" rel="noopener">
+    <h4>Download CFP</h4>
+    <p>Get the 1-page Call for Papers as a PDF file.</p>
   </a>
 
   <a href="https://openreview.net/group?id=SAF%2F2026%2FConference" class="submission-card primary" target="_blank" rel="noopener">
@@ -470,76 +475,20 @@ We welcome short papers reporting research, negative results with lessons, syste
   
   <!-- General Members -->
   <div class="committee-general">
-    Program committee invited from academia and industry
+    Program committee members invited from academia and industry will be announced soon.
   </div>
 </div>
 
-## Program {#program}
+## Program
+Highly selective single-track program (approx. 6 accepted papers)  
+Invited talks 1–2 speakers, 20–30 minutes plus Q&A  
+Format single track, live video with recordings published afterward  
+Detailed schedule will appear here after notifications
 
-<style>
-.format-features {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  margin-bottom: 32px;
-}
-.format-feature {
-  flex: 1 1 200px;
-  background: #fff;
-  border: 1px solid #eaeaea;
-  border-radius: 8px;
-  padding: 16px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-.format-icon {
-  font-size: 24px;
-  line-height: 1;
-}
-.format-text h5 {
-  margin: 0 0 2px 0;
-  font-size: 15px;
-  font-weight: 600;
-  color: #24292e;
-}
-.format-text p {
-  margin: 0;
-  font-size: 13px;
-  color: #586069;
-}
-</style>
-
-<div class="format-features">
-  <div class="format-feature">
-    <div class="format-icon">🎙️</div>
-    <div class="format-text">
-      <h5>Single Track</h5>
-      <p>Approx. 6 accepted papers</p>
-    </div>
-  </div>
-  <div class="format-feature">
-    <div class="format-icon">⏱️</div>
-    <div class="format-text">
-      <h5>Short Talks</h5>
-      <p>10m talk + 5m Q&A</p>
-    </div>
-  </div>
-  <div class="format-feature">
-    <div class="format-icon">📹</div>
-    <div class="format-text">
-      <h5>Live & Recorded</h5>
-      <p>Video published (opt-in)</p>
-    </div>
-  </div>
-  <div class="format-feature">
-    <div class="format-icon">🗣️</div>
-    <div class="format-text">
-      <h5>Invited Talks</h5>
-      <p>1–2 speakers (30m)</p>
-    </div>
-  </div>
-</div>
+## Presentation
+Each accepted paper gets a 10-minute talk and a 5-minute Q&A  
+Slides or short video due one week before the event  
+Recordings published for authors who opt in
 
 ## Tentative schedule (GMT)
 
