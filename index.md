@@ -567,7 +567,7 @@ Please include your homepage or Google Scholar and 3–5 keywords.
 </a>
 
 ## Accessibility
-Live captions will be enabled. If you need assistance, <a href="mailto:research@sylvesterkaczmarek.com">please email us</a>.
+Live captions will be enabled. If you need assistance, <a href="mailto:enquiries@spaceai.org.uk">please email us</a>.
 
 ## Policies
 
