@@ -6,7 +6,7 @@ This repository hosts the official website and author materials for the Space AI
 
 ### Key Resources
 
-*   **Official Website:** https://spaceaiforum.github.io/
+*   **Official Website:** https://spaceai.org.uk/
 *   **Call for Papers (PDF):** [Space_AI_Forum_2026_CFP.pdf](Space_AI_Forum_2026_CFP.pdf)
 *   **Author Kit (ZIP):** [saf2025_author_kit.zip](saf2025_author_kit.zip)
 
@@ -14,7 +14,7 @@ This repository hosts the official website and author materials for the Space AI
 
 ### Contact
 
-For any inquiries, please email research@sylvesterkaczmarek.com.
+For any inquiries, please email enquiries@spaceai.org.uk.
 
 ### License
 
