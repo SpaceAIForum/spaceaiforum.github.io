@@ -346,9 +346,6 @@ Recordings published for authors who opt in
   text-align: left;
   vertical-align: top;
 }
-.saf-schedule-table tr:last-child td {
-  border-bottom: none;
-}
 .saf-time-col {
   width: 140px;
   font-weight: 600;
@@ -423,8 +420,8 @@ We will post a short post-event survey link here after the workshop to collect f
   flex-shrink: 0;
 }
 .committee-info h4 {
-  margin: 0 0 4px 0;
-  font-size: 18px;
+  margin: 0 0 2px 0;
+  font-size: 17px;
   font-weight: 600;
   color: #24292e;
 }
@@ -446,7 +443,7 @@ We will post a short post-event survey link here after the workshop to collect f
   <div class="committee-card">
     <img class="committee-avatar" src="{{ '/images/sylvester-kaczmarek.jpeg' | relative_url }}" alt="Sylvester Kaczmarek">
     <div class="committee-info">
-      <h4>Prof. Sylvester Kaczmarek</h4>
+      <h4>Sylvester Kaczmarek</h4>
       <p>Program Chair</p>
     </div>
   </div>
