@@ -638,7 +638,7 @@ Live captions will be enabled. If you need assistance, <a href="mailto:enquiries
 </div>
 
 ## Contact
-<a href="mailto:enquiries@spaceai.org.uk">Email the organizers</a>
+<a href="mailto:enquiries@spaceai.org.uk">Email the organizers →</a>
 
 <footer class="saf-footer">
   <img class="saf-logo" src="{{ '/space_ai_forum_logo.jpg' | relative_url }}" alt="Space AI Forum logo">
