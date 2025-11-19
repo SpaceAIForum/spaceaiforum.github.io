@@ -608,7 +608,7 @@ Live captions will be enabled. If you need assistance, <a href="mailto:enquiries
   <details>
     <summary>Code of Conduct & Privacy</summary>
     <div class="policy-content">
-      Be respectful and constructive. Harassment or discrimination is not tolerated. We collect only what is needed to run the event. Contact us for removal requests. To report a conduct issue, email research@sylvesterkaczmarek.com with subject “Conduct”.
+      Be respectful and constructive. Harassment or discrimination is not tolerated. We collect only what is needed to run the event. Contact us for removal requests. To report a conduct issue, email chair@spaceai.org.uk with subject “Conduct”.
     </div>
   </details>
 
@@ -638,7 +638,7 @@ Live captions will be enabled. If you need assistance, <a href="mailto:enquiries
 </div>
 
 ## Contact
-<a href="mailto:research@sylvesterkaczmarek.com">Email the organizers</a>
+<a href="mailto:enquiries@spaceai.org.uk">Email the organizers</a>
 
 <footer class="saf-footer">
   <img class="saf-logo" src="{{ '/space_ai_forum_logo.jpg' | relative_url }}" alt="Space AI Forum logo">
