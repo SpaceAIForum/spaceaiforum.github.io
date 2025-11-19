@@ -347,8 +347,8 @@ Program chair Prof. Sylvester Kaczmarek
 Program committee invited from academia and industry
 
 ## Registration and acknowledgments
-Attendance is free for the first edition.  
-Organized and sponsored by the **Keystone Resilience Initiative (KRI)**.
+Attendance is free for the first edition.
+Thanks to the community for supporting this initiative.
 
 <!--
 ## Supporters
