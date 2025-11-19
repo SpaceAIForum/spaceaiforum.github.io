@@ -17,20 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 
-<!-- before spaceaiforum.github.io
-<script>
-document.addEventListener('DOMContentLoaded', function(){
-  const b = document.querySelector('.page-header .btn');
-  if (!b) return;
-  b.textContent = 'Call for Papers';
-  b.href = 'https://openreview.net/group?id=SAF%2F2026%2FConference';
-  b.target = '_blank';
-  b.rel = 'noopener';
-  b.style.setProperty('margin-top','25px','important'); /* +15 px (10 + 15) */
-});
-</script>
--->
-
 <script>
 document.addEventListener('DOMContentLoaded', function(){
   const header = document.querySelector('.page-header');
@@ -63,6 +49,7 @@ document.addEventListener('DOMContentLoaded', function(){
   b.href = 'https://openreview.net/group?id=SAF%2F2026%2FConference';
   b.target = '_blank';
   b.rel = 'noopener';
+  b.style.setProperty('margin-top','0','important');
 });
 </script>
 
@@ -79,15 +66,8 @@ document.addEventListener('DOMContentLoaded', function () {
 </script> 
 
 <nav class="topnav" markdown="1">
-[Overview](#overview) • [Why Space AI?](#why-space-ai) • [CFP](#call-for-papers) • [Dates](#important-dates) • [Submit](#submission) • [Program](#program) • [Reviewers](#call-for-reviewers) • [Contact](#contact)
+[Overview](#overview) • [Why Space AI?](#why-space-ai) • [Dates](#important-dates) • [CFP](#call-for-papers) • [Submit](#submission) • [Committee](#committee) • [Program](#program) • [Contact](#contact)
 </nav>
-
-<!-- old
-<style>
-.topnav{position:sticky;top:0;z-index:9;background:#fff;text-align:center;padding:.5rem 0;border-bottom:1px solid #eaeaea}
-.topnav a{margin:0 .35rem}
-@media (max-width:640px){.topnav a{display:inline-block;margin:.2rem .45rem}}
-</style> -->
 
 <style>
 .topnav{position:sticky;top:0;z-index:9;background:#fff;text-align:center;padding:.5rem 0;border-bottom:1px solid #eaeaea}
@@ -96,21 +76,6 @@ document.addEventListener('DOMContentLoaded', function () {
 .main-content{padding-top:0}
 @media (max-width:640px){.topnav a{display:inline-block;margin:.2rem .45rem}}
 </style>
-
-<!-- Option A black
-<style>
-.page-header{
-  background:#000 !important;
-  background-image:none !important;
-  color:#fff;
-}
-.page-header .project-name,
-.page-header .project-tagline{color:#fff}
-.page-header .btn{
-  background:transparent;border:1px solid rgba(255,255,255,.9);color:#fff
-}
-.page-header .btn:hover{background:#fff;color:#000}
-</style> -->
 
 <!-- Option B image header -->
 <style>
@@ -128,12 +93,6 @@ document.addEventListener('DOMContentLoaded', function () {
 }
 .page-header .btn:hover{background:#fff;color:#000}
 </style>
-<!-- 
-space_ai_forum_hero_3200x1200.jpg
-Good: 2560 × 960 px
-Minimum: 1920 × 720 px
-JPEG at 75–85% quality. Target ≤ 600 KB.
--->
 
 <style>
 /* Make the two lines tighter and a bit smaller */
@@ -160,33 +119,6 @@ JPEG at 75–85% quality. Target ≤ 600 KB.
 .main-content h2,
 .main-content h3 { color:#3d85c6; } 
 </style>
-
-<!-- Original Overview
-<style>
-/* Big rounded logo to the left of the first Overview paragraph (lowered a bit) */
-h2#overview + p{
-  position: relative;
-  padding-left: 96px;   /* space for the tile */
-  min-height: 76px;
-}
-h2#overview + p::before{
-  content:"";
-  position:absolute; left:0;
-  top:.34em;                 /* lowered to align with first-line caps */
-  width:76px; height:76px;
-  background:#fff url("{{ '/space_ai_forum_logo.jpg' | relative_url }}") center/80% no-repeat;
-  border-radius:12px;
-  box-shadow:0 2px 6px rgba(0,0,0,.2);
-}
-@media (max-width:640px){
-  h2#overview + p{ padding-left:82px; min-height:64px; }
-  h2#overview + p::before{
-    width:64px; height:64px;
-    top:.28em;              /* slightly less offset on phones */
-  }
-}
-</style>
-new one below -->
 
 <style>
 /* Big rounded logo to the left of the first Overview paragraph (lowered a bit) */
@@ -224,85 +156,7 @@ Space AI Forum gathers researchers and practitioners working on AI for satellite
 Accepted work will be listed across official channels and, with author consent, disseminated through disciplinary mailing lists, institutional newsletters, and the organizers’ professional networks to strengthen readership and collaboration.
 
 ## Why Space AI? {#why-space-ai}
-Artificial intelligence is a strategic enabler for the space sector, crucial for enhancing the safety and reliability of complex missions, driving economic growth through innovative applications and services, and accelerating scientific discovery by processing vast amounts of data and enabling autonomous research. 
-
-This forum provides a vital platform for researchers and practitioners to exchange practical knowledge across algorithms, hardware, safety, and deployment, advancing these critical capabilities for the future of space.
-
-## Primer
-<iframe
-  class="saf-pdf"
-  src="https://mozilla.github.io/pdf.js/web/viewer.html?file={{ '/Space-AI-Forum-2026-Pre-Workshop-Overview-v01.pdf' | absolute_url | url_encode }}#pagemode=none&zoom=page-fit">
-</iframe>
-
-<!-- old 
-<style>
-.saf-pdf{width:100%;height:80vh;min-height:560px;border:1px solid #eaeaea}
-@media (max-width:700px){.saf-pdf{height:65vh;min-height:420px}}
-</style> -->
-
-<style>
-/* Desktop and tablets */
-.saf-pdf{
-  width:100%;
-  height:70svh;  /* stable viewport on iOS/Android */
-  height:70vh;   /* fallback */
-  min-height:520px;
-  border:1px solid #eaeaea;
-}
-
-/* Small laptops / big tablets */
-@media (max-width:900px){
-  .saf-pdf{ height:60svh; height:60vh; }
-}
-
-/* Phones: first page + small peek */
-@media (max-width:600px){
-  .saf-pdf{ height:46svh; height:46vh; min-height:360px; }
-}
-</style>
-
-<!-- Inline PDF viewer
-<div class="saf-pdf">
-  <object
-    data="{{ '/Space-AI-Forum-2026-Pre-Workshop-Overview-v01.pdf' | relative_url }}#toolbar=0&navpanes=0&zoom=page-width"
-    type="application/pdf">
-    <p>Your browser can’t display this PDF.
-      <a href="{{ '/Space-AI-Forum-2026-Pre-Workshop-Overview-v01.pdf' | relative_url }}" target="_blank" rel="noopener">Open the PDF</a>
-    </p>
-  </object>
-</div>
-
-<style>
-.saf-pdf{height:80vh;min-height:560px;margin:12px 0}
-.saf-pdf object{width:100%;height:100%;display:block;border:1px solid #eaeaea}
-@media (max-width:700px){.saf-pdf{height:65vh;min-height:420px}}
-</style> -->
-
-## Call for Papers
-We welcome short papers reporting research, negative results with lessons, systems notes, or position pieces.
-
-### Topics
-- Autonomy for flight and surface assets
-- On-board learning and inference on constrained hardware
-- Sensing, perception, tracking, and navigation
-- Verification, validation, testing, and runtime monitoring
-- Robustness to faults, radiation, and anomalies
-- Scheduling, planning, and resource management
-- Communications, compression, and federated methods
-- LLMs and agents for ops and ground tools
-- Data pipelines from lab to orbit and surface
-- Science applications in EO and planetary pipelines
-- Mission science planning and data assimilation
-- Ethics, safety, policy, and standards for AI in space
-
-## Author kit
-- Length 4–6 pages excluding references, PDF only
-- Anonymity: double-blind. Remove names and affiliations
-- License: CC BY 4.0 for camera-ready files
-- Figures, tables, and links allowed
-- Supplementary: optional PDF or single ZIP, anonymized
-- Concurrent submissions: allowed only if the other venue permits. Disclose in the submission
-- Artifacts (optional): during review, share anonymized code/data via private links; after decision, authors may release a public repo and add the link on OpenReview
+Artificial intelligence is the strategic accelerator for the new space economy. As space systems become Critical National Infrastructure, AI is essential for ensuring resilience, managing orbital congestion, and unlocking commercial growth. This forum moves beyond theory, providing the technical foundation required to turn these high-level ambitions into operational reality.
 
 ## Important dates
 
@@ -404,11 +258,95 @@ We welcome short papers reporting research, negative results with lessons, syste
   * AoE = Anywhere on Earth (UTC−12). This effectively means the deadline is valid as long as it is still the date mentioned anywhere on the planet.
 </p>
 
+## Call for Papers
+We welcome short papers reporting research, negative results with lessons, systems notes, or position pieces.
+
+### Topics
+- Autonomy for flight and surface assets
+- On-board learning and inference on constrained hardware
+- Sensing, perception, tracking, and navigation
+- Verification, validation, testing, and runtime monitoring
+- Robustness to faults, radiation, and anomalies
+- Scheduling, planning, and resource management
+- Communications, compression, and federated methods
+- LLMs and agents for ops and ground tools
+- Data pipelines from lab to orbit and surface
+- Science applications in EO and planetary pipelines
+- Mission science planning and data assimilation
+- Ethics, safety, policy, and standards for AI in space
+
+## Author kit
+- Length 4–6 pages excluding references, PDF only
+- Anonymity: double-blind. Remove names and affiliations
+- License: CC BY 4.0 for camera-ready files
+- Figures, tables, and links allowed
+- Supplementary: optional PDF or single ZIP, anonymized
+- Concurrent submissions: allowed only if the other venue permits. Disclose in the submission
+- Artifacts (optional): during review, share anonymized code/data via private links; after decision, authors may release a public repo and add the link on OpenReview
+
 ## Submission
 - Space AI Forum Template: <a href="{{ '/saf2025_author_kit.zip' | relative_url }}" target="_blank" rel="noopener">download the author package (ZIP)</a> or <a href="https://www.overleaf.com/read/skcycybvfdjb#c4beb1" target="_blank" rel="noopener">clone the Overleaf template</a>
 - Download the 1-page CFP (PDF): <a href="{{ '/Space_AI_Forum_2026_CFP.pdf' | relative_url }}" target="_blank" rel="noopener">Space_AI_Forum_2026_CFP.pdf</a>
 - Submit on OpenReview: <a href="https://openreview.net/group?id=SAF%2F2026%2FConference" target="_blank" rel="noopener">start your submission</a>
 - After acceptance, upload a camera-ready with author names. Authors are encouraged to post to arXiv and add the link on the OpenReview record
+
+## Committee
+
+<style>
+.committee-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.committee-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.committee-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #eaeaea;
+  flex-shrink: 0;
+}
+.committee-info h4 {
+  margin: 0 0 2px 0;
+  font-size: 17px;
+  font-weight: 600;
+  color: #24292e;
+}
+.committee-info p {
+  margin: 0;
+  font-size: 15px;
+  color: #586069;
+  line-height: 1.4;
+}
+.committee-general {
+  font-style: italic;
+  color: #586069;
+  margin-top: 8px;
+}
+</style>
+
+<div class="committee-container">
+  <!-- Chair -->
+  <div class="committee-card">
+    <img class="committee-avatar" src="{{ '/images/sylvester-kaczmarek.jpeg' | relative_url }}" alt="Sylvester Kaczmarek">
+    <div class="committee-info">
+      <h4>Sylvester Kaczmarek</h4>
+      <p>Program Chair</p>
+    </div>
+  </div>
+  
+  <!-- General Members -->
+  <div class="committee-general">
+    Program committee invited from academia and industry
+  </div>
+</div>
 
 ## Program
 Highly selective single-track program (approx. 6 accepted papers)  
@@ -484,76 +422,9 @@ Recordings published for authors who opt in
   </tbody>
 </table>
 
-## Survey
-We will post a short post-event survey link here after the workshop to collect feedback and improve the next edition.
-
-## Committee
-
-<style>
-.committee-container {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  margin-top: 24px;
-  margin-bottom: 32px;
-}
-.committee-card {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-.committee-avatar {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 1px solid #eaeaea;
-  flex-shrink: 0;
-}
-.committee-info h4 {
-  margin: 0 0 2px 0;
-  font-size: 17px;
-  font-weight: 600;
-  color: #24292e;
-}
-.committee-info p {
-  margin: 0;
-  font-size: 15px;
-  color: #586069;
-  line-height: 1.4;
-}
-.committee-general {
-  font-style: italic;
-  color: #586069;
-  margin-top: 8px;
-}
-</style>
-
-<div class="committee-container">
-  <!-- Chair -->
-  <div class="committee-card">
-    <img class="committee-avatar" src="{{ '/images/sylvester-kaczmarek.jpeg' | relative_url }}" alt="Sylvester Kaczmarek">
-    <div class="committee-info">
-      <h4>Sylvester Kaczmarek</h4>
-      <p>Program Chair</p>
-    </div>
-  </div>
-  
-  <!-- General Members -->
-  <div class="committee-general">
-    Program committee invited from academia and industry
-  </div>
-</div>
-
 ## Registration and acknowledgments
 Attendance is free for the first edition.
 Thanks to the community for supporting this initiative.
-
-<!--
-## Supporters
-Thanks to attendees who choose to support the event  
-Add your name at checkout and we will list it here if you wish
--->
 
 ## Proceedings
 Accepted PDFs stay on OpenReview  
@@ -581,7 +452,6 @@ Code of conduct reports: Email research@sylvesterkaczmarek.com with subject “C
 
 ## Contact
 Email research@sylvesterkaczmarek.com
-<!-- <br><a href="https://groups.google.com/g/space-ai-forum" target="_blank" rel="noopener">Join the announcements list</a> -->
 
 <footer class="saf-footer">
   <img class="saf-logo" src="{{ '/space_ai_forum_logo.jpg' | relative_url }}" alt="Space AI Forum logo">
