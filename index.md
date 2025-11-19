@@ -666,3 +666,36 @@ Live captions will be enabled. If you need assistance, <a href="mailto:enquiries
 .saf-hr{border:0;border-top:1px solid #eaeaea;margin:24px 0 8px}
 .saf-copy{margin:0;text-align:center;color:#6b7280;font-size:14px}
 </style>
+
+<style>
+/* Subtle float animation for the Space AI Forum logo tiles */
+@keyframes saf-logo-orbit {
+  0% {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(0,0,0,.2);
+  }
+  50% {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 14px rgba(0,0,0,.18);
+  }
+  100% {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(0,0,0,.2);
+  }
+}
+
+/* Apply to the Overview tile (pseudo-element) and footer logo */
+h2#overview + p::before,
+.saf-logo {
+  animation: saf-logo-orbit 6s ease-in-out infinite;
+  will-change: transform, box-shadow;
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  h2#overview + p::before,
+  .saf-logo {
+    animation: none;
+  }
+}
+</style>
