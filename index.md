@@ -339,7 +339,7 @@ We welcome short papers reporting research, negative results with lessons, syste
 <style>
 .submission-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 16px;
   margin-top: 16px;
   margin-bottom: 32px;
@@ -382,8 +382,13 @@ We welcome short papers reporting research, negative results with lessons, syste
 
 <div class="submission-grid">
   <a href="{{ '/saf2025_author_kit.zip' | relative_url }}" class="submission-card" target="_blank" rel="noopener">
-    <h4>Download Template</h4>
-    <p>Get the author kit (ZIP) or clone the Overleaf project.</p>
+    <h4>Download Author Kit</h4>
+    <p>Get the LaTeX template and guidelines (ZIP).</p>
+  </a>
+
+  <a href="https://www.overleaf.com/read/skcycybvfdjb#c4beb1" class="submission-card" target="_blank" rel="noopener">
+    <h4>Overleaf Template</h4>
+    <p>Clone the project directly into Overleaf.</p>
   </a>
   
   <a href="{{ '/Space_AI_Forum_2026_CFP.pdf' | relative_url }}" class="submission-card" target="_blank" rel="noopener">
