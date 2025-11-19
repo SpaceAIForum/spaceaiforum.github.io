@@ -131,7 +131,7 @@ h2#overview + p::before{
   content:"";
   position:absolute; left:0;
   top:.34em;                 /* lowered to align with first-line caps */
-  width:76px; height:76px;
+  width:80px; height:80px;
   background:#fff url("{{ '/space_ai_forum_logo.jpg' | relative_url }}") center/80% no-repeat;
   border-radius:12px;
   box-shadow:0 2px 6px rgba(0,0,0,.2);
