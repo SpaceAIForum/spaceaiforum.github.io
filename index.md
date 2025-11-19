@@ -318,29 +318,88 @@ We welcome short papers reporting research, negative results with lessons, syste
 .author-kit-box li {
   margin-bottom: 8px;
   color: #333;
-}
-.author-kit-box li strong {
-  color: #24292e;
+  line-height: 1.5;
 }
 </style>
 
 <div class="author-kit-box">
   <ul>
-    <li><strong>Length:</strong> 4–6 pages excluding references, PDF only.</li>
-    <li><strong>Anonymity:</strong> Double-blind. Remove names and affiliations.</li>
-    <li><strong>License:</strong> CC BY 4.0 for camera-ready files.</li>
-    <li><strong>Content:</strong> Figures, tables, and links allowed.</li>
-    <li><strong>Supplementary:</strong> Optional PDF or single ZIP, anonymized.</li>
-    <li><strong>Concurrent submissions:</strong> Allowed only if the other venue permits. Disclose in the submission.</li>
-    <li><strong>Artifacts (optional):</strong> During review, share anonymized code/data via private links; after decision, authors may release a public repo and add the link on OpenReview.</li>
+    <li>Submissions should be 4–6 pages (excluding references) and formatted as a PDF.</li>
+    <li>The review process is double-blind. Please ensure all author names and affiliations are removed from the manuscript.</li>
+    <li>Accepted camera-ready files will be published under the CC BY 4.0 license.</li>
+    <li>Figures, tables, and external links are encouraged.</li>
+    <li>Supplementary material (optional) may be included as a separate PDF or ZIP file, provided it is also anonymized.</li>
+    <li>Concurrent submissions are permitted only if the other venue allows it. Please disclose this in your submission.</li>
+    <li>We encourage authors to share anonymized code or data via private links during review. After acceptance, you may release a public repository and add the link to OpenReview.</li>
   </ul>
 </div>
 
 ## Submission
-- Space AI Forum Template: <a href="{{ '/saf2025_author_kit.zip' | relative_url }}" target="_blank" rel="noopener">download the author package (ZIP)</a> or <a href="https://www.overleaf.com/read/skcycybvfdjb#c4beb1" target="_blank" rel="noopener">clone the Overleaf template</a>
-- Download the 1-page CFP (PDF): <a href="{{ '/Space_AI_Forum_2026_CFP.pdf' | relative_url }}" target="_blank" rel="noopener">Space_AI_Forum_2026_CFP.pdf</a>
-- Submit on OpenReview: <a href="https://openreview.net/group?id=SAF%2F2026%2FConference" target="_blank" rel="noopener">start your submission</a>
-- After acceptance, upload a camera-ready with author names. Authors are encouraged to post to arXiv and add the link on the OpenReview record
+
+<style>
+.submission-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+.submission-card {
+  display: block;
+  background: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  padding: 20px;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+}
+.submission-card:hover {
+  border-color: #3d85c6;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.submission-card h4 {
+  margin: 0 0 6px 0;
+  color: #3d85c6;
+  font-size: 16px;
+  font-weight: 600;
+}
+.submission-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #586069;
+  line-height: 1.4;
+}
+/* Highlight the main submit button */
+.submission-card.primary {
+  background: #f8faff;
+  border-color: #cce1ff;
+}
+.submission-card.primary:hover {
+  border-color: #3d85c6;
+}
+</style>
+
+<div class="submission-grid">
+  <a href="{{ '/saf2025_author_kit.zip' | relative_url }}" class="submission-card" target="_blank" rel="noopener">
+    <h4>Download Template</h4>
+    <p>Get the author kit (ZIP) or clone the Overleaf project.</p>
+  </a>
+  
+  <a href="{{ '/Space_AI_Forum_2026_CFP.pdf' | relative_url }}" class="submission-card" target="_blank" rel="noopener">
+    <h4>Download CFP</h4>
+    <p>Get the 1-page Call for Papers as a PDF file.</p>
+  </a>
+
+  <a href="https://openreview.net/group?id=SAF%2F2026%2FConference" class="submission-card primary" target="_blank" rel="noopener">
+    <h4>Start Submission</h4>
+    <p>Upload your paper and supplementary material on OpenReview.</p>
+  </a>
+</div>
+
+<p style="font-size:15px; color:#666; margin-top:-16px; margin-bottom:32px;">
+  After acceptance, authors will be asked to upload a camera-ready version with names. We also encourage posting to arXiv.
+</p>
 
 ## Committee
 
