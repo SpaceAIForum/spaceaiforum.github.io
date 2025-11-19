@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function(){
     (tagline || header).insertAdjacentElement('afterend', dateLine);
   }
   // Merged line to clarify it is a workshop + date
-  dateLine.textContent = 'An online workshop on AI for space systems • 14 March 2026';
+  dateLine.textContent = 'Online workshop on AI for space • 14 Mar 2026';
 
   // button right under the date line
   let b = header.querySelector('.btn');
