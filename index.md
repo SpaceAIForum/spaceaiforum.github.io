@@ -560,15 +560,15 @@ If you have an arXiv preprint, we’ll link it for you
 ## Call for reviewers
 We welcome reviewers with expertise in space systems, robotics, autonomy, ML, and safety.
 
-**Service window:** Feb–Mar 2026 • **Expected load:** 2–3 papers
+Service window Feb–Mar 2026. Expected load 2–3 papers.
+Please include your homepage or Google Scholar and 3–5 keywords.
 
 <a href="mailto:research@sylvesterkaczmarek.com?subject=Space AI Forum Reviewer Application&body=Name:%0D%0AHomepage/Google Scholar:%0D%0AKeywords (3-5):" style="display:inline-block; margin-top:8px; color:#3d85c6; font-weight:600; text-decoration:none; font-size:16px;">
   Apply to Review →
 </a>
-<p style="font-size:14px; color:#666; margin-top:4px;">Please include your homepage or Google Scholar and 3–5 keywords.</p>
 
 ## Accessibility
-Live captions will be enabled. If you need assistance, email research@sylvesterkaczmarek.com
+Live captions will be enabled. If you need assistance, <a href="mailto:research@sylvesterkaczmarek.com">please email us</a>.
 
 ## Policies
 
@@ -639,7 +639,7 @@ Live captions will be enabled. If you need assistance, email research@sylvesterk
 </div>
 
 ## Contact
-Email research@sylvesterkaczmarek.com
+<a href="mailto:research@sylvesterkaczmarek.com">Email the organizers</a>
 
 <footer class="saf-footer">
   <img class="saf-logo" src="{{ '/space_ai_forum_logo.jpg' | relative_url }}" alt="Space AI Forum logo">
