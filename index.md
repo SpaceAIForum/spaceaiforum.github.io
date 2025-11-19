@@ -305,13 +305,104 @@ We welcome short papers reporting research, negative results with lessons, syste
 - Artifacts (optional): during review, share anonymized code/data via private links; after decision, authors may release a public repo and add the link on OpenReview
 
 ## Important dates
-- Location Online
-<!-- - All submission times AoE (UTC−12) - Time zone GMT / - All deadlines 23:59 AoE (UTC-12) --> <!-- AoE is UTC−12. GMT is UTC+0. So GMT = AoE + 12 hours. -->
-- Submissions open 1 Nov 2025 00:00 AoE (UTC−12)
-- Submission deadline 29 Jan 2026 23:59 AoE (UTC−12)
-- Notifications 17 Feb 2026
-- Camera-ready 3 Mar 2026
-- Event 14 Mar 2026
+
+<style>
+.saf-dates-wrapper {
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+.saf-date-row {
+  display: flex;
+  border-bottom: 1px solid #eaeaea;
+  background: #fff;
+  transition: background 0.2s;
+}
+.saf-date-row:last-child {
+  border-bottom: none;
+}
+.saf-date-row:hover {
+  background: #fcfcfc;
+}
+.saf-date-left {
+  width: 130px;
+  padding: 14px 16px;
+  background: #f6f8fa;
+  border-right: 1px solid #eaeaea;
+  font-weight: 600;
+  color: #444;
+  font-size: 15px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+.saf-date-right {
+  padding: 14px 16px;
+  flex-grow: 1;
+  color: #24292e;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+/* Highlight styles */
+.saf-deadline .saf-date-left {
+  color: #d73a49; /* Red for deadline */
+  background: #fff5f5;
+}
+.saf-deadline .saf-date-right {
+  font-weight: 600;
+}
+.saf-event-day .saf-date-left {
+  color: #0366d6; /* Blue for event */
+  background: #f1f8ff;
+}
+.saf-tz-note {
+  font-size: 13px;
+  color: #6a737d;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  .saf-date-row { flex-direction: column; }
+  .saf-date-left { width: 100%; border-right: none; border-bottom: 1px solid #eaeaea; padding: 10px 16px; }
+  .saf-date-right { padding: 12px 16px; }
+}
+</style>
+
+<div class="saf-dates-wrapper">
+  <!-- Row 1 -->
+  <div class="saf-date-row">
+    <div class="saf-date-left">1 Nov 2025</div>
+    <div class="saf-date-right">Submissions open</div>
+  </div>
+  <!-- Row 2: Deadline (Highlighted) -->
+  <div class="saf-date-row saf-deadline">
+    <div class="saf-date-left">29 Jan 2026</div>
+    <div class="saf-date-right">Submission deadline (23:59 AoE)</div>
+  </div>
+  <!-- Row 3 -->
+  <div class="saf-date-row">
+    <div class="saf-date-left">17 Feb 2026</div>
+    <div class="saf-date-right">Notifications</div>
+  </div>
+  <!-- Row 4 -->
+  <div class="saf-date-row">
+    <div class="saf-date-left">3 Mar 2026</div>
+    <div class="saf-date-right">Camera-ready due</div>
+  </div>
+  <!-- Row 5: Event (Highlighted) -->
+  <div class="saf-date-row saf-event-day">
+    <div class="saf-date-left">14 Mar 2026</div>
+    <div class="saf-date-right">Workshop Event (Online)</div>
+  </div>
+</div>
+
+<p class="saf-tz-note">
+  * AoE = Anywhere on Earth (UTC−12). This effectively means the deadline is valid as long as it is still the date mentioned anywhere on the planet.
+</p>
 
 ## Submission
 - Space AI Forum Template: <a href="{{ '/saf2025_author_kit.zip' | relative_url }}" target="_blank" rel="noopener">download the author package (ZIP)</a> or <a href="https://www.overleaf.com/read/skcycybvfdjb#c4beb1" target="_blank" rel="noopener">clone the Overleaf template</a>
