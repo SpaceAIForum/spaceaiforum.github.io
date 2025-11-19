@@ -261,28 +261,80 @@ Artificial intelligence is the strategic accelerator for the new space economy. 
 ## Call for Papers
 We welcome short papers reporting research, negative results with lessons, systems notes, or position pieces.
 
-### Topics
-- Autonomy for flight and surface assets
-- On-board learning and inference on constrained hardware
-- Sensing, perception, tracking, and navigation
-- Verification, validation, testing, and runtime monitoring
-- Robustness to faults, radiation, and anomalies
-- Scheduling, planning, and resource management
-- Communications, compression, and federated methods
-- LLMs and agents for ops and ground tools
-- Data pipelines from lab to orbit and surface
-- Science applications in EO and planetary pipelines
-- Mission science planning and data assimilation
-- Ethics, safety, policy, and standards for AI in space
+<style>
+.topics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+.topic-item {
+  background: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  padding: 12px 16px;
+  font-size: 15px;
+  color: #444;
+  display: flex;
+  align-items: center;
+  line-height: 1.4;
+}
+.topic-item:hover {
+  border-color: #3d85c6;
+  background: #fcfcfc;
+}
+</style>
+
+<div class="topics-grid">
+  <div class="topic-item">Autonomy for flight and surface assets</div>
+  <div class="topic-item">On-board learning and inference</div>
+  <div class="topic-item">Sensing, perception, tracking, and navigation</div>
+  <div class="topic-item">Verification, validation, and testing</div>
+  <div class="topic-item">Robustness to faults and radiation</div>
+  <div class="topic-item">Scheduling and resource management</div>
+  <div class="topic-item">Communications and federated methods</div>
+  <div class="topic-item">LLMs and agents for ops and ground tools</div>
+  <div class="topic-item">Data pipelines from lab to orbit</div>
+  <div class="topic-item">Science applications in EO and planetary</div>
+  <div class="topic-item">Mission science planning</div>
+  <div class="topic-item">Ethics, safety, policy, and standards</div>
+</div>
 
 ## Author kit
-- Length 4–6 pages excluding references, PDF only
-- Anonymity: double-blind. Remove names and affiliations
-- License: CC BY 4.0 for camera-ready files
-- Figures, tables, and links allowed
-- Supplementary: optional PDF or single ZIP, anonymized
-- Concurrent submissions: allowed only if the other venue permits. Disclose in the submission
-- Artifacts (optional): during review, share anonymized code/data via private links; after decision, authors may release a public repo and add the link on OpenReview
+
+<style>
+.author-kit-box {
+  background: #f9f9f9;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 32px;
+}
+.author-kit-box ul {
+  margin: 0;
+  padding-left: 20px;
+}
+.author-kit-box li {
+  margin-bottom: 8px;
+  color: #333;
+}
+.author-kit-box li strong {
+  color: #24292e;
+}
+</style>
+
+<div class="author-kit-box">
+  <ul>
+    <li><strong>Length:</strong> 4–6 pages excluding references, PDF only.</li>
+    <li><strong>Anonymity:</strong> Double-blind. Remove names and affiliations.</li>
+    <li><strong>License:</strong> CC BY 4.0 for camera-ready files.</li>
+    <li><strong>Content:</strong> Figures, tables, and links allowed.</li>
+    <li><strong>Supplementary:</strong> Optional PDF or single ZIP, anonymized.</li>
+    <li><strong>Concurrent submissions:</strong> Allowed only if the other venue permits. Disclose in the submission.</li>
+    <li><strong>Artifacts (optional):</strong> During review, share anonymized code/data via private links; after decision, authors may release a public repo and add the link on OpenReview.</li>
+  </ul>
+</div>
 
 ## Submission
 - Space AI Forum Template: <a href="{{ '/saf2025_author_kit.zip' | relative_url }}" target="_blank" rel="noopener">download the author package (ZIP)</a> or <a href="https://www.overleaf.com/read/skcycybvfdjb#c4beb1" target="_blank" rel="noopener">clone the Overleaf template</a>
