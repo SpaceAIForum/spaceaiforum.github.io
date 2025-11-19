@@ -36,17 +36,21 @@ document.addEventListener('DOMContentLoaded', function(){
   const header = document.querySelector('.page-header');
   if (!header) return;
 
-  // tagline comes from _config.yml
+  // tagline comes from _config.yml but we override it here for the strategic update
+  const tagline = header.querySelector('.project-tagline');
+  if (tagline) {
+    tagline.textContent = 'Advancing Autonomy and Intelligence in Orbit';
+  }
 
   // 3rd line: make it share the tagline class so style matches exactly
-  const tagline = header.querySelector('.project-tagline');
   let dateLine = header.querySelector('.saf-date');
   if (!dateLine) {
     dateLine = document.createElement('p');
     dateLine.className = 'project-tagline saf-date';
     (tagline || header).insertAdjacentElement('afterend', dateLine);
   }
-  dateLine.textContent = '14 March 2026 • Online';
+  // Merged line to clarify it is a workshop + date
+  dateLine.textContent = 'An online workshop on AI for space systems • 14 March 2026';
 
   // button right under the date line
   let b = header.querySelector('.btn');
@@ -344,8 +348,7 @@ Program committee invited from academia and industry
 
 ## Registration and acknowledgments
 Attendance is free for the first edition.  
-Optional support: if you wish to contribute to event costs, you may make a voluntary contribution via [Buy Me a Coffee](https://buymeacoffee.com/space.sylvester).  
-Supporters who opt in will be acknowledged on this page.
+Organized and sponsored by the **Keystone Resilience Initiative (KRI)**.
 
 <!--
 ## Supporters
