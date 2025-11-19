@@ -331,20 +331,131 @@ Slides or short video due one week before the event
 Recordings published for authors who opt in
 
 ## Tentative schedule (GMT)
-15:00–15:10 Opening  
-15:10–16:00 Paper session 1  
-16:00–16:20 Invited talk  
-16:20–16:30 Break  
-16:30–17:20 Paper session 2  
-17:20–17:45 Panel and Q&A  
-17:45–18:00 Closing
+
+<style>
+.saf-schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0 32px 0;
+  font-size: 16px;
+}
+.saf-schedule-table th, 
+.saf-schedule-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #eaeaea;
+  text-align: left;
+  vertical-align: top;
+}
+.saf-schedule-table tr:last-child td {
+  border-bottom: none;
+}
+.saf-time-col {
+  width: 140px;
+  font-weight: 600;
+  color: #555;
+  white-space: nowrap;
+}
+.saf-event-col {
+  color: #24292e;
+}
+@media (max-width: 600px) {
+  .saf-time-col { width: 110px; font-size: 15px; }
+}
+</style>
+
+<table class="saf-schedule-table">
+  <tbody>
+    <tr>
+      <td class="saf-time-col">15:00–15:10</td>
+      <td class="saf-event-col">Opening</td>
+    </tr>
+    <tr>
+      <td class="saf-time-col">15:10–16:00</td>
+      <td class="saf-event-col">Paper session 1</td>
+    </tr>
+    <tr>
+      <td class="saf-time-col">16:00–16:20</td>
+      <td class="saf-event-col">Invited talk</td>
+    </tr>
+    <tr>
+      <td class="saf-time-col">16:20–16:30</td>
+      <td class="saf-event-col">Break</td>
+    </tr>
+    <tr>
+      <td class="saf-time-col">16:30–17:20</td>
+      <td class="saf-event-col">Paper session 2</td>
+    </tr>
+    <tr>
+      <td class="saf-time-col">17:20–17:45</td>
+      <td class="saf-event-col">Panel and Q&A</td>
+    </tr>
+    <tr>
+      <td class="saf-time-col">17:45–18:00</td>
+      <td class="saf-event-col">Closing</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Survey
 We will post a short post-event survey link here after the workshop to collect feedback and improve the next edition.
 
 ## Committee
-Program chair Prof. Sylvester Kaczmarek  
-Program committee invited from academia and industry
+
+<style>
+.committee-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.committee-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.committee-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #eaeaea;
+  flex-shrink: 0;
+}
+.committee-info h4 {
+  margin: 0 0 4px 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #24292e;
+}
+.committee-info p {
+  margin: 0;
+  font-size: 15px;
+  color: #586069;
+  line-height: 1.4;
+}
+.committee-general {
+  font-style: italic;
+  color: #586069;
+  margin-top: 8px;
+}
+</style>
+
+<div class="committee-container">
+  <!-- Chair -->
+  <div class="committee-card">
+    <img class="committee-avatar" src="{{ '/images/sylvester-kaczmarek.jpeg' | relative_url }}" alt="Sylvester Kaczmarek">
+    <div class="committee-info">
+      <h4>Prof. Sylvester Kaczmarek</h4>
+      <p>Program Chair</p>
+    </div>
+  </div>
+  
+  <!-- General Members -->
+  <div class="committee-general">
+    Program committee invited from academia and industry
+  </div>
+</div>
 
 ## Registration and acknowledgments
 Attendance is free for the first edition.
