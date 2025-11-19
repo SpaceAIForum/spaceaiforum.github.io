@@ -405,11 +405,6 @@ We welcome short papers reporting research, negative results with lessons, syste
     <h4>Overleaf Template</h4>
     <p>Clone the project directly into Overleaf.</p>
   </a>
-  
-  <a href="{{ '/Space_AI_Forum_2026_CFP.pdf' | relative_url }}" class="submission-card" target="_blank" rel="noopener">
-    <h4>Download CFP</h4>
-    <p>Get the 1-page Call for Papers as a PDF file.</p>
-  </a>
 
   <a href="https://openreview.net/group?id=SAF%2F2026%2FConference" class="submission-card primary" target="_blank" rel="noopener">
     <h4>Start Submission</h4>
@@ -563,9 +558,14 @@ Archival copies with DOIs are deposited in the <a href="{{ ZENODO_URL }}" target
 If you have an arXiv preprint, we’ll link it for you
 
 ## Call for reviewers
-We welcome reviewers with expertise in space systems, robotics, autonomy, ML, and safety  
-How to apply: email research@sylvesterkaczmarek.com with your homepage or Google Scholar and 3–5 keywords  
-Service window Feb–Mar 2026. Expected load 2–3 papers
+We welcome reviewers with expertise in space systems, robotics, autonomy, ML, and safety.
+
+**Service window:** Feb–Mar 2026 • **Expected load:** 2–3 papers
+
+<a href="mailto:research@sylvesterkaczmarek.com?subject=Space AI Forum Reviewer Application&body=Name:%0D%0AHomepage/Google Scholar:%0D%0AKeywords (3-5):" style="display:inline-block; margin-top:8px; color:#3d85c6; font-weight:600; text-decoration:none; font-size:16px;">
+  Apply to Review →
+</a>
+<p style="font-size:14px; color:#666; margin-top:4px;">Please include your homepage or Google Scholar and 3–5 keywords.</p>
 
 ## Accessibility
 Live captions will be enabled. If you need assistance, email research@sylvesterkaczmarek.com
