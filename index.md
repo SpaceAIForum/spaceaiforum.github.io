@@ -267,7 +267,7 @@ We welcome short papers reporting research, negative results with lessons, syste
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 12px;
   margin-top: 16px;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 .topic-item {
   background: #fff;
@@ -283,6 +283,17 @@ We welcome short papers reporting research, negative results with lessons, syste
 .topic-item:hover {
   border-color: #3d85c6;
   background: #fcfcfc;
+}
+.cfp-download-link {
+  display: inline-block;
+  font-size: 15px;
+  color: #3d85c6;
+  text-decoration: none;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+.cfp-download-link:hover {
+  text-decoration: underline;
 }
 </style>
 
@@ -300,6 +311,10 @@ We welcome short papers reporting research, negative results with lessons, syste
   <div class="topic-item">Mission science planning</div>
   <div class="topic-item">Ethics, safety, policy, and standards</div>
 </div>
+
+<a href="{{ '/Space_AI_Forum_2026_CFP.pdf' | relative_url }}" class="cfp-download-link" target="_blank" rel="noopener">
+  📄 Download the 1-page Call for Papers (PDF)
+</a>
 
 ## Author kit
 
@@ -339,7 +354,7 @@ We welcome short papers reporting research, negative results with lessons, syste
 <style>
 .submission-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 16px;
   margin-top: 16px;
   margin-bottom: 32px;
@@ -389,11 +404,6 @@ We welcome short papers reporting research, negative results with lessons, syste
   <a href="https://www.overleaf.com/read/skcycybvfdjb#c4beb1" class="submission-card" target="_blank" rel="noopener">
     <h4>Overleaf Template</h4>
     <p>Clone the project directly into Overleaf.</p>
-  </a>
-  
-  <a href="{{ '/Space_AI_Forum_2026_CFP.pdf' | relative_url }}" class="submission-card" target="_blank" rel="noopener">
-    <h4>Download CFP</h4>
-    <p>Get the 1-page Call for Papers as a PDF file.</p>
   </a>
 
   <a href="https://openreview.net/group?id=SAF%2F2026%2FConference" class="submission-card primary" target="_blank" rel="noopener">
@@ -464,16 +474,72 @@ We welcome short papers reporting research, negative results with lessons, syste
   </div>
 </div>
 
-## Program
-Highly selective single-track program (approx. 6 accepted papers)  
-Invited talks 1–2 speakers, 20–30 minutes plus Q&A  
-Format single track, live video with recordings published afterward  
-Detailed schedule will appear here after notifications
+## Program {#program}
 
-## Presentation
-Each accepted paper gets a 10-minute talk and a 5-minute Q&A  
-Slides or short video due one week before the event  
-Recordings published for authors who opt in
+<style>
+.format-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 32px;
+}
+.format-feature {
+  flex: 1 1 200px;
+  background: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.format-icon {
+  font-size: 24px;
+  line-height: 1;
+}
+.format-text h5 {
+  margin: 0 0 2px 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #24292e;
+}
+.format-text p {
+  margin: 0;
+  font-size: 13px;
+  color: #586069;
+}
+</style>
+
+<div class="format-features">
+  <div class="format-feature">
+    <div class="format-icon">🎙️</div>
+    <div class="format-text">
+      <h5>Single Track</h5>
+      <p>Approx. 6 accepted papers</p>
+    </div>
+  </div>
+  <div class="format-feature">
+    <div class="format-icon">⏱️</div>
+    <div class="format-text">
+      <h5>Short Talks</h5>
+      <p>10m talk + 5m Q&A</p>
+    </div>
+  </div>
+  <div class="format-feature">
+    <div class="format-icon">📹</div>
+    <div class="format-text">
+      <h5>Live & Recorded</h5>
+      <p>Video published (opt-in)</p>
+    </div>
+  </div>
+  <div class="format-feature">
+    <div class="format-icon">🗣️</div>
+    <div class="format-text">
+      <h5>Invited Talks</h5>
+      <p>1–2 speakers (30m)</p>
+    </div>
+  </div>
+</div>
 
 ## Tentative schedule (GMT)
 
@@ -556,15 +622,72 @@ Service window Feb–Mar 2026. Expected load 2–3 papers
 Live captions will be enabled. If you need assistance, email research@sylvesterkaczmarek.com
 
 ## Policies
-Be respectful and constructive. Harassment or discrimination is not tolerated  
-Privacy notice: We collect only what is needed to run the event. Contact us for removal requests  
-Recording consent: Speakers and authors will be asked to opt in before recording  
-Conflicts: Authors may serve as reviewers with strict COI. No reviewing of one’s own paper, same institution, advisor or advisee, coauthors in the last 3 years, close collaborators, or active funding ties in the last 2 years  
-Review model: Each paper receives at least two reviews and one meta review by the chair. The chair assigns reviews in OpenReview and enforces COI  
-Review visibility: Double-blind during review. Reviews are posted on OpenReview. After decisions, accepted papers appear with author names  
-Archiving consent: By submitting the camera-ready, you permit the organizers to archive it on Zenodo under CC BY 4.0 and mint a DOI  
-Export control and dual-use: Do not submit ITAR/EAR-restricted, classified, or proprietary-restricted content. Authors must have the right to share any data or code included  
-Code of conduct reports: Email research@sylvesterkaczmarek.com with subject “Conduct”
+
+<style>
+.saf-policies details {
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  background: #fff;
+}
+.saf-policies summary {
+  padding: 12px 16px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #24292e;
+  list-style: none; /* Hide default triangle */
+  position: relative;
+}
+.saf-policies summary::-webkit-details-marker { display: none; }
+.saf-policies summary::after {
+  content: "+";
+  position: absolute;
+  right: 16px;
+  font-weight: bold;
+  color: #999;
+}
+.saf-policies details[open] summary::after { content: "−"; }
+.saf-policies details[open] summary { border-bottom: 1px solid #eaeaea; }
+.saf-policies .policy-content {
+  padding: 16px;
+  font-size: 15px;
+  color: #444;
+  line-height: 1.5;
+}
+</style>
+
+<div class="saf-policies">
+  <details>
+    <summary>Code of Conduct & Privacy</summary>
+    <div class="policy-content">
+      Be respectful and constructive. Harassment or discrimination is not tolerated. We collect only what is needed to run the event. Contact us for removal requests. To report a conduct issue, email research@sylvesterkaczmarek.com with subject “Conduct”.
+    </div>
+  </details>
+
+  <details>
+    <summary>Review Process & Conflicts</summary>
+    <div class="policy-content">
+      <strong>Review model:</strong> Each paper receives at least two reviews and one meta review by the chair. The chair assigns reviews in OpenReview and enforces COI.<br><br>
+      <strong>Conflicts:</strong> Authors may serve as reviewers with strict COI. No reviewing of one’s own paper, same institution, advisor or advisee, coauthors in the last 3 years, close collaborators, or active funding ties in the last 2 years.<br><br>
+      <strong>Visibility:</strong> Double-blind during review. Reviews are posted on OpenReview. After decisions, accepted papers appear with author names.
+    </div>
+  </details>
+
+  <details>
+    <summary>Archiving & Export Control</summary>
+    <div class="policy-content">
+      <strong>Archiving consent:</strong> By submitting the camera-ready, you permit the organizers to archive it on Zenodo under CC BY 4.0 and mint a DOI.<br><br>
+      <strong>Export control:</strong> Do not submit ITAR/EAR-restricted, classified, or proprietary-restricted content. Authors must have the right to share any data or code included.
+    </div>
+  </details>
+  
+  <details>
+    <summary>Recording Consent</summary>
+    <div class="policy-content">
+      Speakers and authors will be asked to opt in before recording.
+    </div>
+  </details>
+</div>
 
 ## Contact
 Email research@sylvesterkaczmarek.com
