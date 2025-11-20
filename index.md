@@ -229,7 +229,7 @@ Artificial intelligence is the strategic accelerator for the new space economy. 
 <div class="saf-dates-wrapper">
   <!-- Row 1 -->
   <div class="saf-date-row">
-    <div class="saf-date-left">1 Nov 2025</div>
+    <div class="saf-date-left">14 Nov 2025</div>
     <div class="saf-date-right">Submissions open</div>
   </div>
   <!-- Row 2: Deadline (Highlighted) -->
