@@ -299,14 +299,16 @@ We welcome short papers reporting research, negative results with lessons, syste
 
 
 <div class="topics-grid">
+  <div class="topic-category">Autonomy and robotics</div>
   <div class="topic-item">Autonomy for flight and surface assets</div>
   <div class="topic-item">AI-enabled space robotics and manipulators</div>
   <div class="topic-item">On-orbit servicing and debris removal</div>
   <div class="topic-item">In-orbit assembly and manufacturing</div>
   <div class="topic-item">Trajectory optimization and proximity operations</div>
 
+  <div class="topic-category">Algorithms and novel hardware</div>
   <div class="topic-item">On-board learning and inference</div>
-  <div class="topic-item">Neuromorphic, quantum, and photonic AI for space systems</div>
+  <div class="topic-item">Neuromorphic, quantum, and photonic AI for space</div>
   <div class="topic-item">Embodied intelligence and morphology</div>
   <div class="topic-item">Sensing, perception, tracking, and navigation</div>
 
