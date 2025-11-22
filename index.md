@@ -300,7 +300,7 @@ We welcome short papers reporting research, negative results with lessons, syste
 
 <div class="topics-grid">
   <div class="topic-item">Autonomy for flight and surface assets</div>
-  <div class="topic-item">Space robotics and manipulators</div>
+  <div class="topic-item">AI-enabled space robotics and manipulators</div>
   <div class="topic-item">On-orbit servicing and debris removal</div>
   <div class="topic-item">In-orbit assembly and manufacturing</div>
   <div class="topic-item">Trajectory optimization and proximity operations</div>
