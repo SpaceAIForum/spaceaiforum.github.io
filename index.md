@@ -306,6 +306,7 @@ We welcome short papers reporting research, negative results with lessons, syste
   <div class="topic-item">Trajectory optimization and proximity operations</div>
 
   <div class="topic-item">On-board learning and inference</div>
+  <div class="topic-item">Neuromorphic, quantum, and photonic AI for space systems</div>
   <div class="topic-item">Embodied intelligence and morphology</div>
   <div class="topic-item">Sensing, perception, tracking, and navigation</div>
 
