@@ -297,16 +297,29 @@ We welcome short papers reporting research, negative results with lessons, syste
 }
 </style>
 
+
 <div class="topics-grid">
   <div class="topic-item">Autonomy for flight and surface assets</div>
+  <div class="topic-item">Space robotics and manipulators</div>
+  <div class="topic-item">On-orbit servicing and debris removal</div>
+  <div class="topic-item">In-orbit assembly and manufacturing</div>
+  <div class="topic-item">Trajectory optimization and proximity operations</div>
+
   <div class="topic-item">On-board learning and inference</div>
+  <div class="topic-item">Embodied intelligence and morphology</div>
   <div class="topic-item">Sensing, perception, tracking, and navigation</div>
+
+  <div class="topic-item">Simulation, digital twins, and hardware-in-the-loop</div>
   <div class="topic-item">Verification, validation, and testing</div>
   <div class="topic-item">Robustness to faults and radiation</div>
+
   <div class="topic-item">Scheduling and resource management</div>
   <div class="topic-item">Communications and federated methods</div>
-  <div class="topic-item">LLMs and agents for ops and ground tools</div>
   <div class="topic-item">Data pipelines from lab to orbit</div>
+
+  <div class="topic-item">LLMs and agents for ops and ground tools</div>
+  <div class="topic-item">Human-robot interaction and shared autonomy</div>
+
   <div class="topic-item">Science applications in EO and planetary</div>
   <div class="topic-item">Mission science planning</div>
   <div class="topic-item">Ethics, safety, policy, and standards</div>
